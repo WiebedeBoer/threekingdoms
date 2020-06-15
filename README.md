@@ -1,4 +1,4 @@
-## About Shugo8
+## About Three Kingdoms
 
 Three Kingdoms, Age of Turmoil, was made using: PHP, JavaScript, MySQL, XML, HTML5, CSS3, and using Laravel, three.js, jQuery, and Bootstrap frameworks and libraries.
 
