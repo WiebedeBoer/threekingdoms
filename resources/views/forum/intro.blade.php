@@ -1,6 +1,6 @@
-@extends('layouts.manual')
+@extends('layouts.game')
 @section('title')
-Three Kingdoms - Manual
+Game
 @endsection
 @section('content')
 

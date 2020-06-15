@@ -1,6 +1,6 @@
-@extends('layouts.game')
+@extends('layouts.news')
 @section('title')
-Game
+Three Kingdoms - News
 @endsection
 @section('content')
 

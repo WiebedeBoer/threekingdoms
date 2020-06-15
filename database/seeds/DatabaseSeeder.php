@@ -49,7 +49,8 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('ruler')->references('person_id')->on('people');
             $table->foreign('governor')->references('person_id')->on('people');
             $table->foreign('faction')->references('faction_id')->on('factions');
-        }); 
+        });
+		
 		//person
 		//stats fk
 		Schema::table('stats', function (Blueprint $table) {
@@ -59,12 +60,24 @@ class ForeignKeySeeder extends Seeder
 		Schema::table('skills', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
         }); 
-		//applicant
+		
+		//relations
+		//relations fk
+		Schema::table('relations', function (Blueprint $table) {
+            $table->foreign('to')->references('person_id')->on('people');
+			$table->foreign('from')->references('person_id')->on('people');
+        });	
+		//stances fk
+		Schema::table('stances', function (Blueprint $table) {
+            $table->foreign('to')->references('faction_id')->on('factions');
+			$table->foreign('from')->references('faction_id')->on('factions');
+        });	
 		//applicants fk
 		Schema::table('applicants', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
 			$table->foreign('faction')->references('faction_id')->on('factions');
         });	
+		
 		//army
 		//armies fk
 		Schema::table('armies', function (Blueprint $table) {
@@ -74,6 +87,7 @@ class ForeignKeySeeder extends Seeder
 			$table->foreign('logistics')->references('town_id')->on('towns');
 			$table->foreign('location')->references('town_id')->on('towns');
         });
+		
 		//forum
 		//threads fk
 		Schema::table('threads', function (Blueprint $table) {
@@ -87,6 +101,7 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('creator')->references('id')->on('users');
 			$table->foreign('thread')->references('thread_id')->on('threads');
         });	
+		
 		//chronicle
 		//chronicles fk
 		Schema::table('chronicles', function (Blueprint $table) {
@@ -95,6 +110,7 @@ class ForeignKeySeeder extends Seeder
 			$table->foreign('faction')->references('faction_id')->on('factions');
 			$table->foreign('belligerent')->references('faction_id')->on('factions');
         });	
+		
 		//dungeon
 		//dungeons fk
 		Schema::table('dungeons', function (Blueprint $table) {
@@ -105,7 +121,8 @@ class ForeignKeySeeder extends Seeder
 		Schema::table('prisoners', function (Blueprint $table) {
             $table->foreign('prisoner')->references('person_id')->on('people');
 			$table->foreign('dungeon')->references('dungeon_id')->on('dungeons');
-        });			
+        });	
+		
 		//coupling
         //members fk
 		Schema::table('members', function (Blueprint $table) {

@@ -11,10 +11,8 @@ use App\Person;
 use App\Faction;
 use App\Town;
 use App\User;
-use App\Workshop;
-use App\Home;
 
-class WorkshopController extends Controller
+class DiplomacyController extends Controller
 {
     //authenticate
     public function __construct()

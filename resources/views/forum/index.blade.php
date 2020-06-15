@@ -1,6 +1,6 @@
-@extends('layouts.game')
+@extends('layouts.forum')
 @section('title')
-Game
+Three Kingdoms - Forum
 @endsection
 @section('content')
 
