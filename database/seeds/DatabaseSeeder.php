@@ -18,6 +18,8 @@ class DatabaseSeeder extends Seeder
     {
         //foreign key seeds
         $this->call('ForeignKeySeeder');
+        //users seeds
+        $this->call('UserSeeder');
         //towns seeds
         $this->call('TownSeeder');
         //item types seeds
@@ -57,6 +59,12 @@ class ForeignKeySeeder extends Seeder
 		Schema::table('skills', function (Blueprint $table) {
             $table->foreign('person')->references('person_id')->on('people');
         }); 
+		//applicant
+		//applicants fk
+		Schema::table('applicants', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+			$table->foreign('faction')->references('faction_id')->on('factions');
+        });	
 		//army
 		//armies fk
 		Schema::table('armies', function (Blueprint $table) {
@@ -66,6 +74,38 @@ class ForeignKeySeeder extends Seeder
 			$table->foreign('logistics')->references('town_id')->on('towns');
 			$table->foreign('location')->references('town_id')->on('towns');
         });
+		//forum
+		//threads fk
+		Schema::table('threads', function (Blueprint $table) {
+            $table->foreign('creator')->references('id')->on('users');
+			$table->foreign('tavern')->references('town_id')->on('towns');
+			$table->foreign('faction')->references('faction_id')->on('factions');
+			$table->foreign('belligerent')->references('faction_id')->on('factions');
+        });		
+		//posts fk
+		Schema::table('posts', function (Blueprint $table) {
+            $table->foreign('creator')->references('id')->on('users');
+			$table->foreign('thread')->references('thread_id')->on('threads');
+        });	
+		//chronicle
+		//chronicles fk
+		Schema::table('chronicles', function (Blueprint $table) {
+            $table->foreign('person')->references('person_id')->on('people');
+			$table->foreign('town')->references('town_id')->on('towns');
+			$table->foreign('faction')->references('faction_id')->on('factions');
+			$table->foreign('belligerent')->references('faction_id')->on('factions');
+        });	
+		//dungeon
+		//dungeons fk
+		Schema::table('dungeons', function (Blueprint $table) {
+            $table->foreign('dungeon_master')->references('person_id')->on('people');
+			$table->foreign('town')->references('town_id')->on('towns');
+        });	
+		//prisoners fk
+		Schema::table('prisoners', function (Blueprint $table) {
+            $table->foreign('prisoner')->references('person_id')->on('people');
+			$table->foreign('dungeon')->references('dungeon_id')->on('dungeons');
+        });			
 		//coupling
         //members fk
 		Schema::table('members', function (Blueprint $table) {
@@ -100,6 +140,34 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('location')->references('town_id')->on('towns');
         });	
 	}
+}
+
+class UserSeeder extends Seeder
+{
+	
+	//admins game moderator
+    public function run()
+    {
+		//1 default admin game master
+		DB::table('users')->insert([
+			'name' => 'GameMaster',
+			'email' => 'info@romegames.nl',
+			'password' => '$2y$10$cGxbdYZ84Jd1iBerxc4YcOSSUmu6JeIFc5JhrPe5Fh9MRTQcl3xwO',
+			'audio' => '0',
+			'admin' => '1'
+		]);
+	
+		//2 admin player
+		DB::table('users')->insert([
+			'name' => 'Wiebe',
+			'email' => 'wiebe81@gmail.com',
+			'password' => '$2y$10$cGxbdYZ84Jd1iBerxc4YcOSSUmu6JeIFc5JhrPe5Fh9MRTQcl3xwO',
+			'audio' => '0',
+			'admin' => '1'
+		]);
+	
+	}
+	
 }
 
 //item types seeder

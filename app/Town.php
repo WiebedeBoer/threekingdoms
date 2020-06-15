@@ -66,6 +66,26 @@ class Town extends Model
     public function workshops()
     {
         return $this->hasMany('App\Workshop','workshop_id');
+    }
+
+	//forum key data
+	//threads
+    public function threads()
+    {
+        return $this->hasMany('App\Thread','thread_id');
+    }	
+	
+	//chronicles
+    public function chronicles()
+    {
+        return $this->hasMany('App\Chronicle','chronicle_id');
+    }
+	
+	//dungeon key data
+	//dungeons
+    public function masters()
+    {
+        return $this->hasMany('App\Dungeon','dungeon_id');
     }	
 	
 }

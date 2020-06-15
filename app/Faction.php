@@ -33,6 +33,26 @@ class Faction extends Model
     public function capitals()
     {
         return $this->hasMany('App\Capital','capital_id');
-    }		
+    }	
+
+	//forum key data
+	//threads
+    public function threads()
+    {
+        return $this->hasMany('App\Thread','thread_id');
+    }	
+	
+	//chronicles
+    public function chronicles()
+    {
+        return $this->hasMany('App\Chronicle','chronicle_id');
+    }
+	
+	//applicant key data
+	//applicants
+    public function applicants()
+    {
+        return $this->hasMany('App\Applicant','applicant_id');
+    }
 	
 }

@@ -101,6 +101,37 @@ class Person extends Model
         return $this->hasMany('App\Item','item_id');
     }
 	
-
+	//forum key data
+	//threads
+    public function threads()
+    {
+        return $this->hasMany('App\Thread','thread_id');
+    }	
+	
+	//chronicles
+    public function chronicles()
+    {
+        return $this->hasMany('App\Chronicle','chronicle_id');
+    }
+	
+	//dungeon key data
+	//dungeons
+    public function masters()
+    {
+        return $this->hasMany('App\Dungeon','dungeon_id');
+    }	
+	
+	//prisoners
+    public function prisoners()
+    {
+        return $this->hasMany('App\Prisoner','prisoner_id');
+    }
+	
+	//applicant key data
+	//applicants
+    public function applicants()
+    {
+        return $this->hasMany('App\Applicant','applicant_id');
+    }
 	
 }
