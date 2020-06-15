@@ -1,0 +1,7 @@
+newmtl lambert2SG
+illum 4
+Kd 0.8740 0.6210 0.6760
+Ka 0.0000 0.0000 0.0000
+Tf 1.0000 1.0000 1.0000
+map_Kd Tex_Pig.png
+Ni 1.0000

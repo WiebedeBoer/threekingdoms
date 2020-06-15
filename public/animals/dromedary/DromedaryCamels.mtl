@@ -1,0 +1,7 @@
+newmtl DromedaryCamels_Mat
+illum 4
+Kd 0.667000 0.375000 0.097600
+Ka 0.667000 0.375000 0.097600
+Tf 1.00 1.00 1.00
+map_Kd DromedaryCamels_BaseColor.png
+Ni 1.00

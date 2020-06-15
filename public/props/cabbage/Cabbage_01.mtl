@@ -1,0 +1,12 @@
+# Blender MTL File: '18.blend'
+# Material Count: 1
+
+newmtl 8BC34A
+Ka 1.000000 1.000000 1.000000
+Kd 0.545098 0.764706 0.290196
+Ks 1 1 1
+illum 4
+Ns 300
+d 0.9
+Ni 1.5
+
