@@ -28,6 +28,11 @@ class CreateTownsTable extends Migration
 			$table->integer('justice')->default(900);
 			$table->integer('commerce')->default(10);
 			$table->integer('agriculture')->default(10);
+			//army stats
+			$table->integer('morale')->default(100);
+			$table->integer('training')->default(100);
+			$table->integer('food')->default(1000);
+			$table->integer('weapons')->default(1);
 			//soldiers
 			$table->integer('guards')->default(1);
 			//resources economy

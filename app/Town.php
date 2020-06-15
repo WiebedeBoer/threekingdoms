@@ -54,6 +54,18 @@ class Town extends Model
     public function battles()
     {
         return $this->hasMany('App\Army','army_id');
+    }
+
+	//farms
+    public function farms()
+    {
+        return $this->hasMany('App\Farm','farm_id');
+    }
+	
+	//workshops
+    public function workshops()
+    {
+        return $this->hasMany('App\Workshop','workshop_id');
     }	
 	
 }

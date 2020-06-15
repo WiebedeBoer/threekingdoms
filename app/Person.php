@@ -34,6 +34,34 @@ class Person extends Model
     {
         return $this->hasMany('App\Town','town_id');
     }
+	
+    //armies
+    public function marshalls()
+    {
+        return $this->hasMany('App\Army','army_id');
+    }
+	
+    public function generals()
+    {
+        return $this->hasMany('App\Army','army_id');
+    }
+	
+    public function lieutenants()
+    {
+        return $this->hasMany('App\Army','army_id');
+    }
+	
+	//farms
+    public function farms()
+    {
+        return $this->hasMany('App\Farm','farm_id');
+    }
+	
+	//workshops
+    public function workshops()
+    {
+        return $this->hasMany('App\Workshop','workshop_id');
+    }
 
 	//person key data
     //skills
@@ -73,20 +101,6 @@ class Person extends Model
         return $this->hasMany('App\Item','item_id');
     }
 	
-    //armies
-    public function marshalls()
-    {
-        return $this->hasMany('App\Army','army_id');
-    }
-	
-    public function generals()
-    {
-        return $this->hasMany('App\Army','army_id');
-    }
-	
-    public function lieutenants()
-    {
-        return $this->hasMany('App\Army','army_id');
-    }
+
 	
 }

@@ -83,6 +83,16 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('owner')->references('person_id')->on('people');
             $table->foreign('location')->references('town_id')->on('towns');
         });		
+        //farms fk
+		Schema::table('farms', function (Blueprint $table) {
+            $table->foreign('owner')->references('person_id')->on('people');
+            $table->foreign('location')->references('town_id')->on('towns');
+        });	
+        //workshops fk
+		Schema::table('workshops', function (Blueprint $table) {
+            $table->foreign('owner')->references('person_id')->on('people');
+            $table->foreign('location')->references('town_id')->on('towns');
+        });	
         //items fk
 		Schema::table('items', function (Blueprint $table) {
 			$table->foreign('type')->references('item_type_id')->on('item_types');
