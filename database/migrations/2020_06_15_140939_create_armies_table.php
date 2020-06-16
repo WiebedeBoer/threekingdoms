@@ -16,17 +16,31 @@ class CreateArmiesTable extends Migration
         Schema::create('armies', function (Blueprint $table) {
             $table->bigIncrements('army_id');
 			$table->string('army_name')->default('army');
+			//bodyguards
 			$table->integer('bodyguards')->default(1);
-			$table->integer('militia')->default(0);
-			$table->integer('spearmen')->default(0);
+			//militia
+			$table->integer('pike_militia')->default(0);
+			$table->integer('sword_militia')->default(0);
+			$table->integer('archer_militia')->default(0);
+			//infantry
 			$table->integer('pikemen')->default(0);
 			$table->integer('swordsmen')->default(0);
 			$table->integer('archers')->default(0);
-			$table->integer('horsemen')->default(0);
-			$table->integer('morale')->default(100);
-			$table->integer('training')->default(100);
-			$table->integer('food')->default(100);
-			$table->integer('weapons')->default(100);
+			//cavalry
+			$table->integer('horse_archers')->default(0);
+			$table->integer('lancers')->default(0);
+			$table->integer('chariot_archers')->default(0);
+			$table->integer('chariot_lancers')->default(0);			
+			//resources
+			$table->integer('food')->default(0);
+			//weapons and armor
+			$table->integer('pikes')->default(0);
+			$table->integer('swords')->default(0);
+			$table->integer('bows')->default(0);
+			$table->integer('chariots')->default(0);
+			$table->integer('armor')->default(0);
+			$table->integer('siege_equipment')->default(0);
+			//status
 			$table->string('status')->default('guarding');
 			//fk
 			$table->unsignedBigInteger('marshall')->nullable();

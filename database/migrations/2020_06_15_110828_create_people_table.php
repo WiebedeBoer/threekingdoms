@@ -27,12 +27,14 @@ class CreatePeopleTable extends Migration
 			//portrait
 			$table->string('portrait')->default('w001');
 			//weapon category
-			$table->string('weapon_category');
+			$table->string('weapon_category')->default('halberd');
 			//turns
 			$table->integer('PT')->default(1);
 			$table->integer('KT')->default(1);
 			//fk
 			$table->unsignedBigInteger('owner')->nullable();
+			//biography
+			$table->text('bio')->nullable();
 			//timestamps
             $table->timestamps();
         });
