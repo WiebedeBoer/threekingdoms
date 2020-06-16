@@ -542,8 +542,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Chang An',
             'population' => '150000',  
             'category_size' => 'huge', 
-            'xcooord' => '1',
-			'ycooord' => '1', 
+            'xcooord' => '1962',
+			'ycooord' => '1466', 
 			'jade' => 'yes',
 			'censer' => 'yes',
 			'fabrics' => 'yes'
@@ -553,8 +553,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Luo Yang',
             'population' => '240000',  
             'category_size' => 'legendary', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '2424',
+			'ycooord' => '1399',
 			'censer' => 'yes',
 			'paintings' => 'yes'
         ]);
@@ -563,8 +563,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Ru Nan',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '2670',
+			'ycooord' => '1660',
 			'jade' => 'yes'
         ]);
 		//4
@@ -572,8 +572,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Huai Nan',
             'population' => '180000',  
             'category_size' => 'enormous', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '3012',
+			'ycooord' => '1721',
 			'fabrics' => 'yes',
 			'pottery' => 'yes',
 			'paintings' => 'yes'			
@@ -583,8 +583,8 @@ class TownSeeder extends Seeder
             'town_name' => 'An Ping',
             'population' => '120000',  
             'category_size' => 'large', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '2836',
+			'ycooord' => '932',
 			'jade' => 'yes',
 			'lacquerware' => 'yes',
 			'paintings' => 'yes'				
@@ -594,8 +594,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Lin Zi',
             'population' => '120000',  
             'category_size' => 'large', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '3190',
+			'ycooord' => '1058',
 			'jade' => 'yes',
 			'censer' => 'yes',
 			'lacquerware' => 'yes'			
@@ -605,8 +605,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Fan Yang',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '2827',
+			'ycooord' => '631',
 			'lacquerware' => 'yes',
 			'jade' => 'yes',
 			'lacquerware' => 'yes'			
@@ -616,8 +616,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Jin Yang',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '2443',
+			'ycooord' => '875',
 			'jade' => 'yes',
 			'lacquerware' => 'yes',
 			'paintings' => 'yes'			
@@ -627,19 +627,19 @@ class TownSeeder extends Seeder
             'town_name' => 'Jian Ye',
             'population' => '120000',  
             'category_size' => 'large', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '3249',
+			'ycooord' => '1817',
 			'fabrics' => 'yes',
 			'pottery' => 'yes',
 			'paintings' => 'yes'			
         ]);
 		//10
 		DB::table('towns')->insert([            
-            'town_name' => 'Xia',
+            'town_name' => 'Jiang Xia',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '2669',
+			'ycooord' => '2072',
 			'fabrics' => 'yes',
 			'lacquerware' => 'yes'			
         ]);
@@ -648,8 +648,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Nan Jun',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '2399',
+			'ycooord' => '2074',
 			'fabrics' => 'yes',
 			'lacquerware' => 'yes'	
         ]);
@@ -658,8 +658,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Jiang Ning',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '1211',
+			'ycooord' => '2706',
 			'fabrics' => 'yes'
         ]);
 		//13
@@ -735,8 +735,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Xu Chang',
             'population' => '120000',  
             'category_size' => 'large', 
-            'xcooord' => '1',
-			'ycooord' => '1',
+            'xcooord' => '2608',
+			'ycooord' => '1501',
 			'jade' => 'yes',
 			'fabrics' => 'yes'				
         ]);
