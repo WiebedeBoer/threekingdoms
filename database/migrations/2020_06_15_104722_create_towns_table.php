@@ -19,7 +19,7 @@ class CreateTownsTable extends Migration
 			//population
 			$table->integer('population')->default(30000);
 			//size
-			$table->string('category_size');
+			$table->string('category_size')->default('small');
 			//location
 			$table->integer('xcooord');
 			$table->integer('ycooord');

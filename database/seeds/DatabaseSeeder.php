@@ -412,125 +412,125 @@ class ItemSeeder extends Seeder
 {
     public function run()
     {
-		//
+		//1, red hare, horse, luo yang
 		DB::table('items')->insert([            
             'type' => '1',  
-            'location' => '1'
+            'location' => '2'
         ]);	
-		//
+		//2, hex mark, horse,
 		DB::table('items')->insert([            
             'type' => '2',  
             'location' => '1'
         ]);	
-		//
+		//3, gray lightning, horse,
 		DB::table('items')->insert([            
             'type' => '3',  
             'location' => '1'
         ]);	
-		//
+		//4, shadow runner, horse,
 		DB::table('items')->insert([            
             'type' => '4',  
             'location' => '1'
         ]);	
-		//
+		//5, white dragon, horse, an ping
 		DB::table('items')->insert([            
             'type' => '5',  
-            'location' => '1'
+            'location' => '5'
         ]);	
-		//
+		//6, black dragon, horse, ru nan
 		DB::table('items')->insert([            
             'type' => '6',  
-            'location' => '1'
+            'location' => '3'
         ]);	
-		//
+		//7,
 		DB::table('items')->insert([            
             'type' => '7',  
             'location' => '1'
         ]);	
-		//
+		//8,
 		DB::table('items')->insert([            
             'type' => '8',  
             'location' => '1'
         ]);	
-		//
+		//9,
 		DB::table('items')->insert([            
             'type' => '9',  
             'location' => '1'
         ]);	
-		//
+		//10,
 		DB::table('items')->insert([            
             'type' => '10',  
             'location' => '1'
         ]);	
-		//
+		//11,
 		DB::table('items')->insert([            
             'type' => '11',  
             'location' => '1'
         ]);	
-		//
+		//12,
 		DB::table('items')->insert([            
             'type' => '12',  
             'location' => '1'
         ]);	
-		//
+		//13,
 		DB::table('items')->insert([            
             'type' => '13',  
             'location' => '1'
         ]);	
-		//
+		//14,
 		DB::table('items')->insert([            
             'type' => '14',  
             'location' => '1'
         ]);	
-		//
+		//15,
 		DB::table('items')->insert([            
             'type' => '15',  
             'location' => '1'
         ]);	
-		//
+		//16,
 		DB::table('items')->insert([            
             'type' => '16',  
             'location' => '1'
         ]);	
-		//
+		//17, Art of War, book, 
 		DB::table('items')->insert([            
             'type' => '17',  
             'location' => '1'
         ]);	
-		//
+		//18, Scrolls of Taigong, book,
 		DB::table('items')->insert([            
             'type' => '18',  
             'location' => '1'
         ]);	
-		//
+		//19, Tao Te Ching, book,
 		DB::table('items')->insert([            
             'type' => '19',  
             'location' => '1'
         ]);	
-		//
+		//20, Classic of Poetry, book,
 		DB::table('items')->insert([            
             'type' => '20',  
             'location' => '1'
         ]);	
-		//
+		//21, book of documents, book,
 		DB::table('items')->insert([            
             'type' => '21',  
             'location' => '1'
         ]);	
-		//
+		//22, book of rites, book,
 		DB::table('items')->insert([            
             'type' => '22',  
             'location' => '1'
         ]);	
-		//
+		//23, Spring and Autumn Annals, book,
 		DB::table('items')->insert([            
             'type' => '23',  
             'location' => '1'
         ]);	
-		//
+		//24, imperial seal, luo yang
 		DB::table('items')->insert([            
             'type' => '24',  
-            'location' => '1'
+            'location' => '2'
         ]);	
 	}
 }
@@ -540,131 +540,140 @@ class TownSeeder extends Seeder
 {
     public function run()
     {
+		//provincial capitals
 		//1
 		DB::table('towns')->insert([            
             'town_name' => 'Chang An',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '150000',  
+            'category_size' => 'huge', 
             'xcooord' => '1',
-			'ycooord' => '1' 
+			'ycooord' => '1', 
+			'jade' => 'yes',
+			'censer' => 'yes',
+			'fabrics' => 'yes'
         ]);
 		//2
 		DB::table('towns')->insert([            
             'town_name' => 'Luo Yang',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '240000',  
+            'category_size' => 'legendary', 
             'xcooord' => '1',
-			'ycooord' => '1' 
+			'ycooord' => '1',
+			'censer' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//3
 		DB::table('towns')->insert([            
             'town_name' => 'Ru Nan',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '60000',  
+            'category_size' => 'medium', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//4
 		DB::table('towns')->insert([            
             'town_name' => 'Huai Nan',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '120000',  
+            'category_size' => 'large', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//5
 		DB::table('towns')->insert([            
             'town_name' => 'An Ping',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '60000',  
+            'category_size' => 'medium', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//6
 		DB::table('towns')->insert([            
             'town_name' => 'Lin Zi',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '120000',  
+            'category_size' => 'large', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//7
 		DB::table('towns')->insert([            
             'town_name' => 'Fan Yang',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '90000',  
+            'category_size' => 'remarkable', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//8
 		DB::table('towns')->insert([            
             'town_name' => 'Jin Yang',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '30000',  
+            'category_size' => 'small', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//9
 		DB::table('towns')->insert([            
             'town_name' => 'Jian Ye',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '120000',  
+            'category_size' => 'large', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//10
 		DB::table('towns')->insert([            
             'town_name' => 'Xia',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '60000',  
+            'category_size' => 'medium', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//11
 		DB::table('towns')->insert([            
             'town_name' => 'Nan Jun',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '60000',  
+            'category_size' => 'medium', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//12
 		DB::table('towns')->insert([            
             'town_name' => 'Jiang Ning',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '60000',  
+            'category_size' => 'medium', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//13
 		DB::table('towns')->insert([            
             'town_name' => 'Cheng Du',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '150000',  
+            'category_size' => 'huge', 
             'xcooord' => '1',
-			'ycooord' => '1' 
+			'ycooord' => '1',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes'			
         ]);
 		//14
 		DB::table('towns')->insert([            
             'town_name' => 'Peng Cheng',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '30000',  
+            'category_size' => 'small', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
 		//15
 		DB::table('towns')->insert([            
             'town_name' => 'Tian Shui',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '60000',  
+            'category_size' => 'medium', 
             'xcooord' => '1',
-			'ycooord' => '1' 
+			'ycooord' => '1',
+			'lacquerware' => 'yes'
         ]);
 		//16
 		DB::table('towns')->insert([            
             'town_name' => 'Xi Liang',
-            'population' => '1000',  
-            'category_size' => 'metropolis', 
+            'population' => '60000',  
+            'category_size' => 'medium', 
             'xcooord' => '1',
 			'ycooord' => '1' 
         ]);
