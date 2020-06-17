@@ -55,6 +55,8 @@ class CreateTownsTable extends Migration
 			$table->string('pottery')->default('none');
 			$table->string('lacquerware')->default('none');
 			$table->string('paintings')->default('none');
+			//rebels
+			$table->string('category_rebel')->default('Yellow Turbans');
 			//fk
 			$table->unsignedBigInteger('ruler')->nullable();
 			$table->unsignedBigInteger('governor')->nullable();

@@ -11,6 +11,14 @@ use App\Person;
 use App\Faction;
 use App\Town;
 use App\User;
+use App\Capital;
+use App\Home;
+use App\Item;
+use App\Army;
+use App\Farm;
+use App\Workshop;
+use App\Dungeon;
+use App\Chronicle;
 
 class TownController extends Controller
 {
