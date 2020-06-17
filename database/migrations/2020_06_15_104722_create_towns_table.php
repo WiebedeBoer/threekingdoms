@@ -21,8 +21,8 @@ class CreateTownsTable extends Migration
 			//size
 			$table->string('category_size')->default('small');
 			//location
-			$table->integer('xcooord');
-			$table->integer('ycooord');
+			$table->integer('xcoord');
+			$table->integer('ycoord');
 			//stats
 			$table->integer('defenses')->default(10);
 			$table->integer('justice')->default(900);

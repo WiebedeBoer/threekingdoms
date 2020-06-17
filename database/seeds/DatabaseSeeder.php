@@ -542,9 +542,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Chang An',
             'population' => '150000',  
             'category_size' => 'huge', 
-            'xcooord' => '1962',
-			'ycooord' => '1466', 
+            'xcoord' => '1962',
+			'ycoord' => '1466', 
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'jade' => 'yes',
 			'censer' => 'yes',
 			'fabrics' => 'yes'
@@ -554,9 +556,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Luo Yang',
             'population' => '240000',  
             'category_size' => 'legendary', 
-            'xcooord' => '2424',
-			'ycooord' => '1399',
+            'xcoord' => '2424',
+			'ycoord' => '1399',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'censer' => 'yes',
 			'paintings' => 'yes'
         ]);
@@ -565,9 +569,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Ru Nan',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2670',
-			'ycooord' => '1660',
+            'xcoord' => '2670',
+			'ycoord' => '1660',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'jade' => 'yes'
         ]);
 		//4
@@ -575,8 +581,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Huai Nan',
             'population' => '180000',  
             'category_size' => 'enormous', 
-            'xcooord' => '3012',
-			'ycooord' => '1721',
+            'xcoord' => '3012',
+			'ycoord' => '1721',
 			'fabrics' => 'yes',
 			'pottery' => 'yes',
 			'paintings' => 'yes'			
@@ -586,9 +592,11 @@ class TownSeeder extends Seeder
             'town_name' => 'An Ping',
             'population' => '120000',  
             'category_size' => 'large', 
-            'xcooord' => '2836',
-			'ycooord' => '932',
+            'xcoord' => '2836',
+			'ycoord' => '932',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'jade' => 'yes',
 			'lacquerware' => 'yes',
 			'paintings' => 'yes'				
@@ -598,9 +606,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Lin Zi',
             'population' => '120000',  
             'category_size' => 'large', 
-            'xcooord' => '3190',
-			'ycooord' => '1058',
+            'xcoord' => '3190',
+			'ycoord' => '1058',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'jade' => 'yes',
 			'censer' => 'yes',
 			'lacquerware' => 'yes'			
@@ -610,9 +620,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Fan Yang',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2827',
-			'ycooord' => '631',
+            'xcoord' => '2827',
+			'ycoord' => '631',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'lacquerware' => 'yes',
 			'jade' => 'yes',
 			'lacquerware' => 'yes'			
@@ -622,9 +634,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Jin Yang',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2443',
-			'ycooord' => '875',
+            'xcoord' => '2443',
+			'ycoord' => '875',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'jade' => 'yes',
 			'lacquerware' => 'yes',
 			'paintings' => 'yes',
@@ -635,8 +649,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Jian Ye',
             'population' => '120000',  
             'category_size' => 'large', 
-            'xcooord' => '3249',
-			'ycooord' => '1817',
+            'xcoord' => '3249',
+			'ycoord' => '1817',
 			'fabrics' => 'yes',
 			'pottery' => 'yes',
 			'paintings' => 'yes'			
@@ -646,8 +660,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Jiang Xia',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2669',
-			'ycooord' => '2072',
+            'xcoord' => '2669',
+			'ycoord' => '2072',
 			'fabrics' => 'yes',
 			'lacquerware' => 'yes'			
         ]);
@@ -656,8 +670,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Nan Jun',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2399',
-			'ycooord' => '2074',
+            'xcoord' => '2399',
+			'ycoord' => '2074',
 			'fabrics' => 'yes',
 			'lacquerware' => 'yes'	
         ]);
@@ -666,8 +680,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Jiang Ning',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1211',
-			'ycooord' => '2706',
+            'xcoord' => '1211',
+			'ycoord' => '2706',
 			'fabrics' => 'yes',
 			'category_rebel' => 'Dianyue'
         ]);
@@ -676,8 +690,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Cheng Du',
             'population' => '150000',  
             'category_size' => 'huge', 
-            'xcooord' => '1328',
-			'ycooord' => '2020',
+            'xcoord' => '1328',
+			'ycoord' => '2020',
 			'fabrics' => 'yes',
 			'lacquerware' => 'yes',
 			'category_rebel' => 'Baima'			
@@ -688,8 +702,10 @@ class TownSeeder extends Seeder
             'population' => '90000',  
             'category_size' => 'remarkable', 
 			'staple_food' => 'wheat',
-            'xcooord' => '3049',
-			'ycooord' => '1464',
+			'plum' => 'yes',
+			'peach' => 'yes',
+            'xcoord' => '3049',
+			'ycoord' => '1464',
 			'pottery' => 'yes'
         ]);
 		//15
@@ -697,9 +713,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Tian Shui',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1568',
-			'ycooord' => '1416',
+            'xcoord' => '1568',
+			'ycoord' => '1416',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'lacquerware' => 'yes'
         ]);
 		//16, wu wei
@@ -707,9 +725,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Xi Liang',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1138',
-			'ycooord' => '868',
+            'xcoord' => '1138',
+			'ycoord' => '868',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'jade' => 'yes',
 			'fabrics' => 'yes',
 			'category_rebel' => 'Yuezhi'			
@@ -719,9 +739,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Dong Jun',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2823',
-			'ycooord' => '1305',
+            'xcoord' => '2823',
+			'ycoord' => '1305',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'fabrics' => 'yes',
 			'pottery' => 'yes'				
         ]);
@@ -730,8 +752,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Nan Hai',
             'population' => '150000',  
             'category_size' => 'huge', 
-            'xcooord' => '2532',
-			'ycooord' => '3123',
+            'xcoord' => '2532',
+			'ycoord' => '3123',
 			'jade' => 'yes',
 			'fabrics' => 'yes',
 			'category_rebel' => 'Nanyue'			
@@ -741,8 +763,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Nan Zhen',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '1715',
-			'ycooord' => '1650',
+            'xcoord' => '1715',
+			'ycoord' => '1650',
 			'jade' => 'yes',
 			'fabrics' => 'yes',
 			'category_rebel' => 'Five Pecks of Rice'				
@@ -752,9 +774,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Xu Chang',
             'population' => '120000',  
             'category_size' => 'large', 
-            'xcooord' => '2608',
-			'ycooord' => '1501',
+            'xcoord' => '2608',
+			'ycoord' => '1501',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'jade' => 'yes',
 			'fabrics' => 'yes'				
         ]);
@@ -763,9 +787,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Nan Yang',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2438',
-			'ycooord' => '1663',
+            'xcoord' => '2438',
+			'ycoord' => '1663',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'jade' => 'yes',
 			'fabrics' => 'yes'				
         ]);
@@ -775,8 +801,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Shenyang',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '3862',
-			'ycooord' => '209',
+            'xcoord' => '3862',
+			'ycoord' => '209',
 			'staple_food' => 'soy',
 			'category_rebel' => 'Koguryo'
         ]);				
@@ -785,8 +811,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Tuhe',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '3566',
-			'ycooord' => '327',
+            'xcoord' => '3566',
+			'ycoord' => '327',
 			'staple_food' => 'soy',
 			'category_rebel' => 'Koguryo'
         ]);	
@@ -795,8 +821,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Liaoyang',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '3838',
-			'ycooord' => '302',
+            'xcoord' => '3838',
+			'ycoord' => '302',
 			'staple_food' => 'soy',
 			'category_rebel' => 'Koguryo'
         ]);		
@@ -806,9 +832,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Shang Gu',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2744',
-			'ycooord' => '375',
+            'xcoord' => '2744',
+			'ycoord' => '375',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Wuhuan'
         ]);	
 		//26
@@ -816,9 +844,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Dai Jun',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2677',
-			'ycooord' => '529',
+            'xcoord' => '2677',
+			'ycoord' => '529',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Wuhuan'			
         ]);	
 		//27
@@ -826,9 +856,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Yun Zhong',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2446',
-			'ycooord' => '572',
+            'xcoord' => '2446',
+			'ycoord' => '572',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Wuhuan'			
         ]);	
 		//28
@@ -836,9 +868,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Jiu Yuan',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2098',
-			'ycooord' => '406',
+            'xcoord' => '2098',
+			'ycoord' => '406',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Xiongnu'			
         ]);	
 		//far west
@@ -847,9 +881,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Xi Jun',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1062',
-			'ycooord' => '795',
+            'xcoord' => '1062',
+			'ycoord' => '795',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Yuezhi'			
         ]);	
 		//30
@@ -857,9 +893,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Zhang Ye',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '856',
-			'ycooord' => '698',
+            'xcoord' => '856',
+			'ycoord' => '698',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Yuezhi'			
         ]);	
 		//31
@@ -867,9 +905,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Long You',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '1026',
-			'ycooord' => '1082',
+            'xcoord' => '1026',
+			'ycoord' => '1082',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Qiang'			
         ]);
 		//far south
@@ -878,8 +918,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Cang Wu',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2306',
-			'ycooord' => '2947',
+            'xcoord' => '2306',
+			'ycoord' => '2947',
 			'category_rebel' => 'Nanyue'			
         ]);	
 		//33
@@ -887,8 +927,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Yu Lin',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2102',
-			'ycooord' => '3255',
+            'xcoord' => '2102',
+			'ycoord' => '3255',
 			'category_rebel' => 'Nanyue'			
         ]);	
 		//34
@@ -896,8 +936,8 @@ class TownSeeder extends Seeder
             'town_name' => 'He Pu',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2000',
-			'ycooord' => '3336',
+            'xcoord' => '2000',
+			'ycoord' => '3336',
 			'category_rebel' => 'Nanyue'			
         ]);	
 		//35
@@ -905,8 +945,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Shi Xing',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2528',
-			'ycooord' => '2724',
+            'xcoord' => '2528',
+			'ycoord' => '2724',
 			'category_rebel' => 'Nanyue'			
         ]);
 		//36
@@ -914,8 +954,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Lin He',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2557',
-			'ycooord' => '2960',
+            'xcoord' => '2557',
+			'ycoord' => '2960',
 			'category_rebel' => 'Nanyue'			
         ]);
 		//37
@@ -923,8 +963,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Gao Liang',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2218',
-			'ycooord' => '3304',
+            'xcoord' => '2218',
+			'ycoord' => '3304',
 			'category_rebel' => 'Nanyue'			
         ]);
 		//south
@@ -933,104 +973,105 @@ class TownSeeder extends Seeder
             'town_name' => 'Chang Sha',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2497',
-			'ycooord' => '2395'			
+            'xcoord' => '2497',
+			'ycoord' => '2395'			
         ]);		
 		//39
 		DB::table('towns')->insert([            
             'town_name' => 'Wu Ling',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2325',
-			'ycooord' => '2271'			
+            'xcoord' => '2325',
+			'ycoord' => '2271'			
         ]);	
 		//40
 		DB::table('towns')->insert([            
             'town_name' => 'Ling Ling',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2318',
-			'ycooord' => '2683'			
+            'xcoord' => '2318',
+			'ycoord' => '2683'			
         ]);	
 		//41
 		DB::table('towns')->insert([            
             'town_name' => 'Gui Yang',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2543',
-			'ycooord' => '2842'			
+            'xcoord' => '2543',
+			'ycoord' => '2842',
+			'category_rebel' => 'Nanyue'				
         ]);				
 		//42
 		DB::table('towns')->insert([            
             'town_name' => 'Gui Ling',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2140',
-			'ycooord' => '2821'			
+            'xcoord' => '2140',
+			'ycoord' => '2821'			
         ]);
 		//43
 		DB::table('towns')->insert([            
             'town_name' => 'Lei Yang',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2477',
-			'ycooord' => '2656'			
+            'xcoord' => '2477',
+			'ycoord' => '2656'			
         ]);
 		//44
 		DB::table('towns')->insert([            
             'town_name' => 'Zhao Ling',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2298',
-			'ycooord' => '2535'			
+            'xcoord' => '2298',
+			'ycoord' => '2535'			
         ]);
 		//45
 		DB::table('towns')->insert([            
             'town_name' => 'Xiang Tan',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2488',
-			'ycooord' => '2448'			
+            'xcoord' => '2488',
+			'ycoord' => '2448'			
         ]);
 		//46
 		DB::table('towns')->insert([            
             'town_name' => 'Ba Ling',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2515',
-			'ycooord' => '2218'			
+            'xcoord' => '2515',
+			'ycoord' => '2218'			
         ]);
 		//47
 		DB::table('towns')->insert([            
             'town_name' => 'An Cheng',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2848',
-			'ycooord' => '2266'			
+            'xcoord' => '2848',
+			'ycoord' => '2266'			
         ]);
 		//48
 		DB::table('towns')->insert([            
             'town_name' => 'Lu Ling',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2832',
-			'ycooord' => '2472'			
+            'xcoord' => '2832',
+			'ycoord' => '2472'			
         ]);
 		//49
 		DB::table('towns')->insert([            
             'town_name' => 'Lin Chuang',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2936',
-			'ycooord' => '2424'			
+            'xcoord' => '2936',
+			'ycoord' => '2424'			
         ]);
 		//50
 		DB::table('towns')->insert([            
             'town_name' => 'Jian An',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '3226',
-			'ycooord' => '2432',
+            'xcoord' => '3226',
+			'ycoord' => '2432',
 			'category_rebel' => 'Minyue'			
         ]);
 		//51
@@ -1038,8 +1079,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Yan Ping',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '3176',
-			'ycooord' => '2626',
+            'xcoord' => '3176',
+			'ycoord' => '2626',
 			'category_rebel' => 'Minyue'			
         ]);
 		//52
@@ -1047,32 +1088,32 @@ class TownSeeder extends Seeder
             'town_name' => 'Nan Chang',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2878',
-			'ycooord' => '2322'			
+            'xcoord' => '2878',
+			'ycoord' => '2322'			
         ]);
 		//53
 		DB::table('towns')->insert([            
             'town_name' => 'Jiu Jiang',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2890',
-			'ycooord' => '2166'			
+            'xcoord' => '2890',
+			'ycoord' => '2166'			
         ]);	
 		//54
 		DB::table('towns')->insert([            
             'town_name' => 'Ba Dong',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2236',
-			'ycooord' => '1997'			
+            'xcoord' => '2236',
+			'ycoord' => '1997'			
         ]);	
 		//55
 		DB::table('towns')->insert([            
             'town_name' => 'Lin Jiang',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '1894',
-			'ycooord' => '2001'			
+            'xcoord' => '1894',
+			'ycoord' => '2001'			
         ]);					
 		//far southwest
 		//56
@@ -1080,17 +1121,17 @@ class TownSeeder extends Seeder
             'town_name' => 'Jian Wei',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1284',
-			'ycooord' => '2189',
-			'category_rebel' => 'Qiang'			
+            'xcoord' => '1284',
+			'ycoord' => '2189',
+			'category_rebel' => 'Yelang'			
         ]);	
 		//57, chongqing
 		DB::table('towns')->insert([            
             'town_name' => 'Ba Jun',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1645',
-			'ycooord' => '2192',
+            'xcoord' => '1645',
+			'ycoord' => '2192',
 			'category_rebel' => 'Yelang'			
         ]);	
 		//58
@@ -1098,8 +1139,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Zhu Ti',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1420',
-			'ycooord' => '2222',
+            'xcoord' => '1420',
+			'ycoord' => '2222',
 			'category_rebel' => 'Yelang'			
         ]);	
 		//59
@@ -1107,8 +1148,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Yue Juan',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1160',
-			'ycooord' => '2294',
+            'xcoord' => '1160',
+			'ycoord' => '2294',
 			'category_rebel' => 'Dianyue'			
         ]);	
 		//60
@@ -1116,8 +1157,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Guang Han',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '1557',
-			'ycooord' => '1750',
+            'xcoord' => '1557',
+			'ycoord' => '1750',
 			'category_rebel' => 'Baima'			
         ]);
 		//61
@@ -1125,8 +1166,8 @@ class TownSeeder extends Seeder
             'town_name' => 'De Yang',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '1356',
-			'ycooord' => '1976',
+            'xcoord' => '1356',
+			'ycoord' => '1976',
 			'category_rebel' => 'Baima'				
         ]);
 		//62
@@ -1134,17 +1175,17 @@ class TownSeeder extends Seeder
             'town_name' => 'Xi Chang',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1090',
-			'ycooord' => '2439',
-			'category_rebel' => 'Baima'				
+            'xcoord' => '1090',
+			'ycoord' => '2439',
+			'category_rebel' => 'Dianyue'				
         ]);
 		//63
 		DB::table('towns')->insert([            
             'town_name' => 'Yun Nan',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '1066',
-			'ycooord' => '2842',
+            'xcoord' => '1066',
+			'ycoord' => '2842',
 			'category_rebel' => 'Dianyue'				
         ]);
 		//64
@@ -1152,8 +1193,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Xing Gu',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '1292',
-			'ycooord' => '2790',
+            'xcoord' => '1292',
+			'ycoord' => '2790',
 			'category_rebel' => 'Dianyue'			
         ]);
 		//east
@@ -1162,40 +1203,40 @@ class TownSeeder extends Seeder
             'town_name' => 'Hui Ji',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '3529',
-			'ycooord' => '2119'			
+            'xcoord' => '3529',
+			'ycoord' => '2119'			
         ]);
 		//66, suzhou
 		DB::table('towns')->insert([            
             'town_name' => 'Wu Jun',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '3490',
-			'ycooord' => '1924'			
+            'xcoord' => '3490',
+			'ycoord' => '1924'			
         ]);
 		//67
 		DB::table('towns')->insert([            
             'town_name' => 'Guang Ling',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '3350',
-			'ycooord' => '1755'			
+            'xcoord' => '3350',
+			'ycoord' => '1755'			
         ]);
 		//68
 		DB::table('towns')->insert([            
             'town_name' => 'Wan Cheng',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '3058',
-			'ycooord' => '1843'			
+            'xcoord' => '3058',
+			'ycoord' => '1843'			
         ]);
 		//69
 		DB::table('towns')->insert([            
             'town_name' => 'Lin Hai',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '3564',
-			'ycooord' => '2298',
+            'xcoord' => '3564',
+			'ycoord' => '2298',
 			'category_rebel' => 'Minyue'			
         ]);
 		//70
@@ -1203,8 +1244,8 @@ class TownSeeder extends Seeder
             'town_name' => 'Wen Zhou',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '3502',
-			'ycooord' => '2426',
+            'xcoord' => '3502',
+			'ycoord' => '2426',
 			'category_rebel' => 'Minyue'			
         ]);
 		//71
@@ -1212,48 +1253,51 @@ class TownSeeder extends Seeder
             'town_name' => 'Dong Yang',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '3446',
-			'ycooord' => '2233'			
+            'xcoord' => '3446',
+			'ycoord' => '2233'			
         ]);
 		//72
 		DB::table('towns')->insert([            
             'town_name' => 'Fu Chun',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '3425',
-			'ycooord' => '2102'			
+            'xcoord' => '3425',
+			'ycoord' => '2102'			
         ]);
 		//73
 		DB::table('towns')->insert([            
             'town_name' => 'Yin Shang',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2926',
-			'ycooord' => '1717'			
+            'xcoord' => '2926',
+			'ycoord' => '1717'			
         ]);
 		//74
 		DB::table('towns')->insert([            
             'town_name' => 'Ru Jin',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2870',
-			'ycooord' => '1676'			
+            'xcoord' => '2870',
+			'ycoord' => '1676'			
         ]);
 		//75
 		DB::table('towns')->insert([            
             'town_name' => 'Gu Shi',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2766',
-			'ycooord' => '1797'			
+            'xcoord' => '2766',
+			'ycoord' => '1797'			
         ]);
 		//76
 		DB::table('towns')->insert([            
             'town_name' => 'Lu Shan',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '2486',
-			'ycooord' => '1584'			
+            'xcoord' => '2486',
+			'ycoord' => '1584',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',			
         ]);
 		//west
 		//77, lanzhou
@@ -1261,9 +1305,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Jin Cheng',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1299',
-			'ycooord' => '1175',
+            'xcoord' => '1299',
+			'ycoord' => '1175',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Qiang'			
         ]);
 		//78
@@ -1271,9 +1317,11 @@ class TownSeeder extends Seeder
             'town_name' => 'Long Xi',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1407',
-			'ycooord' => '1344',
+            'xcoord' => '1407',
+			'ycoord' => '1344',
 			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
 			'category_rebel' => 'Qiang'			
         ]);
 		//79
@@ -1281,57 +1329,527 @@ class TownSeeder extends Seeder
             'town_name' => 'Fuping',
             'population' => '30000',  
             'category_size' => 'small', 
-            'xcooord' => '1608',
-			'ycooord' => '777',
-			'staple_food' => 'wheat'
+            'xcoord' => '1608',
+			'ycoord' => '777',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
+			'category_rebel' => 'Xiongnu'	
         ]);
 		//80
 		DB::table('towns')->insert([            
             'town_name' => 'Fu Feng',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '1760',
-			'ycooord' => '1451',
-			'staple_food' => 'wheat'
+            'xcoord' => '1760',
+			'ycoord' => '1451',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//81
+		DB::table('towns')->insert([            
+            'town_name' => 'An Ding',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '1399',
+			'ycoord' => '1251',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
+			'category_rebel' => 'Qiang'
         ]);
 		//centre
-		//81
+		//82
 		DB::table('towns')->insert([            
             'town_name' => 'Feng Xiang',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2038',
-			'ycooord' => '1424',
-			'staple_food' => 'wheat'
+            'xcoord' => '2038',
+			'ycoord' => '1424',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
         ]);
-		//82
+		//83
 		DB::table('towns')->insert([            
             'town_name' => 'He Dong',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2159',
-			'ycooord' => '1268',
-			'staple_food' => 'wheat'
+            'xcoord' => '2159',
+			'ycoord' => '1268',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
         ]);
-		//83
+		//84
 		DB::table('towns')->insert([            
             'town_name' => 'Hong Nong',
             'population' => '60000',  
             'category_size' => 'medium', 
-            'xcooord' => '2221',
-			'ycooord' => '1422',
-			'staple_food' => 'wheat'
+            'xcoord' => '2221',
+			'ycoord' => '1422',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
         ]);
 		//yellow river
-		//84
+		//85
 		DB::table('towns')->insert([            
             'town_name' => 'Kaifeng',
             'population' => '90000',  
             'category_size' => 'remarkable', 
-            'xcooord' => '2674',
-			'ycooord' => '1378',
-			'staple_food' => 'wheat'
+            'xcoord' => '2674',
+			'ycoord' => '1378',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
         ]);
-		
+		//86
+		DB::table('towns')->insert([            
+            'town_name' => 'Chao Ge',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2614',
+			'ycoord' => '1289',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//87
+		DB::table('towns')->insert([            
+            'town_name' => 'Chen Liu',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2779',
+			'ycoord' => '1403',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//88
+		DB::table('towns')->insert([            
+            'town_name' => 'Wei Jun',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2654',
+			'ycoord' => '1199',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//89
+		DB::table('towns')->insert([            
+            'town_name' => 'Guang Ping',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2819',
+			'ycoord' => '1109',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//90
+		DB::table('towns')->insert([            
+            'town_name' => 'Fan',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2791',
+			'ycoord' => '1228',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//91
+		DB::table('towns')->insert([            
+            'town_name' => 'Dong Ping',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2904',
+			'ycoord' => '1219',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//92
+		DB::table('towns')->insert([            
+            'town_name' => 'Qi Bei',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2924',
+			'ycoord' => '1089',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//93
+		DB::table('towns')->insert([            
+            'town_name' => 'Qi Nan',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3023',
+			'ycoord' => '1075',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//94
+		DB::table('towns')->insert([            
+            'town_name' => 'Le An',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3132',
+			'ycoord' => '996',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//95
+		DB::table('towns')->insert([            
+            'town_name' => 'Qing He',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2856',
+			'ycoord' => '1010',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//96
+		DB::table('towns')->insert([            
+            'town_name' => 'Zhao Guo',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2731',
+			'ycoord' => '901',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//97
+		DB::table('towns')->insert([            
+            'town_name' => 'Chang Shan',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2690',
+			'ycoord' => '858',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//98
+		DB::table('towns')->insert([            
+            'town_name' => 'Zhong Shan',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2759',
+			'ycoord' => '773',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//99
+		DB::table('towns')->insert([            
+            'town_name' => 'Zhuo Jun',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2659',
+			'ycoord' => '617',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);	
+		//100
+		DB::table('towns')->insert([            
+            'town_name' => 'Yu Yang',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3078',
+			'ycoord' => '513',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//101
+		DB::table('towns')->insert([            
+            'town_name' => 'Bei Ping',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2944',
+			'ycoord' => '528',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//102
+		DB::table('towns')->insert([            
+            'town_name' => 'Liao Xi',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3461',
+			'ycoord' => '465',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//103
+		DB::table('towns')->insert([            
+            'town_name' => 'Bo Hai',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3006',
+			'ycoord' => '803',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//104
+		DB::table('towns')->insert([            
+            'town_name' => 'Ping Yuan',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '2950',
+			'ycoord' => '996',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);		
+		//105
+		DB::table('towns')->insert([            
+            'town_name' => 'De Zhou',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '2933',
+			'ycoord' => '947',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);			
+		//106
+		DB::table('towns')->insert([            
+            'town_name' => 'Nan Pi',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '2967',
+			'ycoord' => '846',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);			
+		//near north east
+		//107
+		DB::table('towns')->insert([            
+            'town_name' => 'Lu Guo',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3262',
+			'ycoord' => '1071',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);	
+		//108
+		DB::table('towns')->insert([            
+            'town_name' => 'Ren Cheng',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2972',
+			'ycoord' => '1281',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//109
+		DB::table('towns')->insert([            
+            'town_name' => 'Xia Pi',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3150',
+			'ycoord' => '1455',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//110
+		DB::table('towns')->insert([            
+            'town_name' => 'Dong Hai',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3253',
+			'ycoord' => '1421',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//111
+		DB::table('towns')->insert([            
+            'town_name' => 'Lang Ya',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3264',
+			'ycoord' => '1253',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//112
+		DB::table('towns')->insert([            
+            'town_name' => 'Bei Hai',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3306',
+			'ycoord' => '1060',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//113
+		DB::table('towns')->insert([            
+            'town_name' => 'Chang Yi',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3338',
+			'ycoord' => '1048',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//114
+		DB::table('towns')->insert([            
+            'town_name' => 'Dong Lai',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '3408',
+			'ycoord' => '991',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//115
+		DB::table('towns')->insert([            
+            'town_name' => 'Feng Lai',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '3517',
+			'ycoord' => '889',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);	
+		//116
+		DB::table('towns')->insert([            
+            'town_name' => 'Mou Ping',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '3625',
+			'ycoord' => '957',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);	
+		//centre north
+		//117
+		DB::table('towns')->insert([            
+            'town_name' => 'Shang Dang',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2514',
+			'ycoord' => '1155',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);	
+		//118
+		DB::table('towns')->insert([            
+            'town_name' => 'Xi He',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2325',
+			'ycoord' => '1073',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
+			'category_rebel' => 'Xiongnu'
+        ]);	
+		//119
+		DB::table('towns')->insert([            
+            'town_name' => 'Yan Men',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2459',
+			'ycoord' => '736',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
+			'category_rebel' => 'Wuhuan'
+        ]);
+		//120
+		DB::table('towns')->insert([            
+            'town_name' => 'Shang Jun',
+            'population' => '60000',  
+            'category_size' => 'medium', 
+            'xcoord' => '2071',
+			'ycoord' => '808',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
+			'category_rebel' => 'Xiongnu'
+        ]);
+		//121
+		DB::table('towns')->insert([            
+            'town_name' => 'Ping Yang',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '2299',
+			'ycoord' => '1175',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);
+		//122
+		DB::table('towns')->insert([            
+            'town_name' => 'Jin Cheng',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '2472',
+			'ycoord' => '1261',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);	
+		//123
+		DB::table('towns')->insert([            
+            'town_name' => 'Shou Yang',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '2575',
+			'ycoord' => '880',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes',
+			'category_rebel' => 'Black Mountain Bandits'	
+        ]);
+		//124
+		DB::table('towns')->insert([            
+            'town_name' => 'Gao Ling',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '1966',
+			'ycoord' => '1407',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);	
+		//125
+		DB::table('towns')->insert([            
+            'town_name' => 'Wu Gong',
+            'population' => '30000',  
+            'category_size' => 'small', 
+            'xcoord' => '1903',
+			'ycoord' => '1457',
+			'staple_food' => 'wheat',
+			'plum' => 'yes',
+			'peach' => 'yes'
+        ]);			
     }
 }

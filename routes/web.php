@@ -146,12 +146,17 @@ Route::delete('raids/{raids}', 'RaidController@destroy');
 Route::patch('raids/{raids}', 'RaidController@update');
 //towns
 Route::get('towns', 'TownController@index');
-Route::get('towns/create','TownController@create');
-Route::post('towns','TownController@store');
 Route::get('towns/{towns}', 'TownController@show');
 Route::get('towns/{towns}/edit', 'TownController@edit');
-Route::delete('towns/{towns}', 'TownController@destroy');
 Route::patch('towns/{towns}', 'TownController@update');
+//town maps
+Route::get('mappopulation','TownController@mappopulation');
+Route::get('maprebel','TownController@maprebel');
+Route::get('mapstaples','TownController@mapstaples');
+Route::get('mappeach','TownController@mappeach');
+Route::get('mapplum','TownController@mapplum');
+Route::get('maptea','TownController@maptea');
+Route::get('mapsilk','TownController@mapsilk');
 //workshops
 Route::get('workshops', 'WorkshopController@index');
 Route::get('workshops/create','WorkshopController@create');
