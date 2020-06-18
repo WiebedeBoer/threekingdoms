@@ -20,18 +20,14 @@
         </div>
     </div>
 </div>
+<!--user audio-->
+@if($user_audio ==1)
+	 <audio autoplay><source src="music/m2_intro.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> 
+@endif
+		<!--session message-->
+@include('session')
 
 		<!--game menu-->
-		<div class="game-menu">
-					<div class="links">
-						<a href="/forum">Forum</a>
-						<a href="/manual">Manual</a>
-						<a href="/factions">Factions</a>
-						<a href="/persons">Officers</a>
-						<a href="/towns">Worldmap</a>
-						<a href="/chronicles">Chronicles</a>
-						<a href="/users/{{ Auth::user()->id }}">Account</a>
-					</div>			
-		</div>	
+@include('layouts.gamemenu')
 
 @endsection

@@ -29,8 +29,9 @@ class CreatePeopleTable extends Migration
 			//weapon category
 			$table->string('weapon_category')->default('halberd');
 			//turns
-			$table->integer('PT')->default(1);
-			$table->integer('KT')->default(1);
+			$table->integer('pt')->default(1);
+			//money
+			$table->integer('money')->default(0);
 			//fk
 			$table->unsignedBigInteger('owner')->nullable();
 			//biography

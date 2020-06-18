@@ -33,8 +33,13 @@ class CreateTownsTable extends Migration
 			$table->integer('training')->default(100);
 			//soldiers
 			$table->integer('guards')->default(1);
-			//resources
-			$table->integer('food')->default(30000);
+			//stored resources
+			$table->integer('store_food')->default(30000);
+			$table->integer('store_plum')->default(0);
+			$table->integer('store_peach')->default(0);
+			$table->integer('store_tea')->default(0);
+			$table->integer('store_silk')->default(0);
+			$table->integer('store_goods')->default(0);
 			//weapons and armor
 			$table->integer('pikes')->default(0);
 			$table->integer('swords')->default(0);

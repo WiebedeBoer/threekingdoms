@@ -18,6 +18,10 @@ class CreateMembersTable extends Migration
 			//fk
 			$table->unsignedBigInteger('person')->nullable();
 			$table->unsignedBigInteger('faction')->nullable();
+			//salary
+			$table->integer('salary')->default(0);
+			//turns
+			$table->integer('kt')->default(1);
 			//timestamps
             $table->timestamps();
         });

@@ -11,10 +11,9 @@ use App\Person;
 use App\Faction;
 use App\Town;
 use App\User;
-use App\Capital;
-use App\Member;
+use App\Home;
 
-class FactionController extends Controller
+class HouseController extends Controller
 {
     //authenticate
     public function __construct()
@@ -25,7 +24,7 @@ class FactionController extends Controller
 	//main view
     public function index()
     {            
-       return view('factions.index');
+       
     }
 	
 	//show view
@@ -61,6 +60,6 @@ class FactionController extends Controller
     //delete function
     public function destroy($id)
     {
-		return view('factions.index');
+
     }
 }

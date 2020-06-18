@@ -24,12 +24,12 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //manual
 Route::get('manual', 'ManualController@index');
-Route::get('manual/character', 'ManualController@character');
-Route::get('manual/economy', 'ManualController@economy');
-Route::get('manual/gameworld', 'ManualController@gameworld');
-Route::get('manual/roles', 'ManualController@roles');
-Route::get('manual/units', 'ManualController@units');
-Route::get('manual/warfare', 'ManualController@warfare');
+Route::get('character', 'ManualController@character');
+Route::get('economics', 'ManualController@economy');
+Route::get('gameworld', 'ManualController@gameworld');
+Route::get('roles', 'ManualController@roles');
+Route::get('military', 'ManualController@units');
+Route::get('warfare', 'ManualController@warfare');
 
 //news
 Route::get('news', 'NewsController@index');
@@ -128,6 +128,14 @@ Route::get('farms/{farms}', 'FarmController@show');
 Route::get('farms/{farms}/edit', 'FarmController@edit');
 Route::delete('farms/{farms}', 'FarmController@destroy');
 Route::patch('farms/{farms}', 'FarmController@update');
+//homes
+Route::get('houses', 'HouseController@index');
+Route::get('houses/create','HouseController@create');
+Route::post('houses','HouseController@store');
+Route::get('houses/{houses}', 'HouseController@show');
+Route::get('houses/{houses}/edit', 'HouseController@edit');
+Route::delete('houses/{houses}', 'HouseController@destroy');
+Route::patch('houses/{houses}', 'HouseController@update');
 //persons
 Route::get('persons', 'PersonController@index');
 Route::get('persons/create','PersonController@create');
@@ -157,6 +165,13 @@ Route::get('mappeach','TownController@mappeach');
 Route::get('mapplum','TownController@mapplum');
 Route::get('maptea','TownController@maptea');
 Route::get('mapsilk','TownController@mapsilk');
+Route::get('mapjade','TownController@mapjade');
+Route::get('mapcenser','TownController@mapcenser');
+Route::get('mapfabrics','TownController@mapfabrics');
+Route::get('mappottery','TownController@mappottery');
+Route::get('maplacquerware','TownController@maplacquerware');
+Route::get('mappaintings','TownController@mappaintings');
+Route::get('mapitems','TownController@mapitems');
 //workshops
 Route::get('workshops', 'WorkshopController@index');
 Route::get('workshops/create','WorkshopController@create');

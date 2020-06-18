@@ -67,17 +67,8 @@
             </div>
         </nav>
 		
-		<!--game menu-->
-		<div class="game-menu">
-					<div class="links">
-						<a href="/forum">Forum</a>
-						<a href="/manual">Manual</a>
-						<a href="/news">News</a>
-						<a href="/terms">Terms &amp; Conditions</a>
-						<a href="/rules">Rules</a>
-						<a href="/privacy">Privacy Policy</a>
-					</div>			
-		</div>	
+		<!--news menu-->
+@include('layouts.newsmenu')	
 		
 		<!--content-->
 

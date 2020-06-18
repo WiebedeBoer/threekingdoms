@@ -68,17 +68,7 @@
         </nav>
 		
 		<!--game menu-->
-		<div class="game-menu">
-					<div class="links">
-						<a href="/forum">Forum</a>
-						<a href="/manual">Manual</a>
-						<a href="/factions">Factions</a>
-						<a href="/persons">Officers</a>
-						<a href="/towns">Worldmap</a>
-						<a href="/chronicles">Chronicles</a>
-						<a href="/users/{{ Auth::user()->id }}">Account</a>
-					</div>			
-		</div>	
+@include('layouts.gamemenu')	
 		
 		<!--content-->
 		@include('session')

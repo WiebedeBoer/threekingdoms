@@ -25,13 +25,15 @@ class PersonController extends Controller
 	//main view
     public function index()
     {            
-       
+       return view('persons.index'); 
     }
 	
 	//show view
     public function show($id)
     {       
-      
+        $user = auth()->user();
+		$user_audio = $user->audio;
+		return view('persons.show', compact('user_audio'));	     
     }
 	
 	//edit form
@@ -61,6 +63,6 @@ class PersonController extends Controller
     //delete function
     public function destroy($id)
     {
-
+		return view('persons.index');
     }
 }

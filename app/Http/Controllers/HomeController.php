@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $user = auth()->user();
+		$user_audio = $user->audio;
+		return view('home', compact('user_audio'));	
     }
 }

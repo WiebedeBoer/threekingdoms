@@ -3,16 +3,7 @@
 Game
 @endsection
 @section('content')
-<div>
-<a href="/towns">default</a>
-<a href="/mappopulation">population</a>
-<a href="/mapstaples">staples</a>
-<a href="/mapplum">plum</a>
-<a href="/mappeach">peach</a>
-<a href="/maptea">tea</a>
-<a href="/mapsilk">silk</a>
-<a href="/maprebel">rebels</a>
-</div>
+@include('towns.mapmenu')
 
 
 	<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -26,11 +17,11 @@ Game
 	@foreach($towns as $town) 
 		@if($town->tea =="none")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (tea)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(255,255,0)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (tea)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(208,240,192)" stroke="rgb(173,23,14)" stroke-width="4" /></a>
 			</g>
 		@endif
 	@endforeach

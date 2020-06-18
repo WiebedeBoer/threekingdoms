@@ -28,6 +28,39 @@ class TownController extends Controller
         $this->middleware('auth');
     }
 
+	//main view
+    public function index()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.index', compact('towns'));	   
+    }
+	
+	//show view
+    public function show($id)
+    {       
+		$towns = Town::where('town_id', $id)->firstOrFail();
+		//return
+		return view('towns.show', compact('towns'));	
+    }
+	
+	//edit form
+    public function edit($id)
+    {       
+		$towns = Town::where('town_id', $id)->firstOrFail();
+		//return
+		return view('towns.edit', compact('towns'));
+    }
+		
+    //update function
+    public function update(Request $request, $id)
+    {
+		$towns = Town::where('town_id', $id)->firstOrFail();
+		//return
+		return view('towns.edit', compact('towns'));
+    }
+	
+	//maps
 	//map view
     public function maprebel()
     {            
@@ -82,40 +115,68 @@ class TownController extends Controller
 		$towns = Town::all();	   
         //return view
         return view('towns.mapsilk', compact('towns'));	   
-    }	
-
-	//main view
-    public function index()
+    }
+	
+	//map view
+    public function mapjade()
     {            
 		$towns = Town::all();	   
         //return view
-        return view('towns.index', compact('towns'));	   
+        return view('towns.mapjade', compact('towns'));	   
     }
 	
-	//show view
-    public function show($id)
-    {       
-		$towns = Town::where('town_id', $id)->firstOrFail();
-		//return
-		return view('towns.show', compact('towns'));	
+	//map view
+    public function mapcenser()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapcenser', compact('towns'));	   
     }
 	
-	//edit form
-    public function edit($id)
-    {       
-		$towns = Town::where('town_id', $id)->firstOrFail();
-		//return
-		return view('towns.edit', compact('towns'));
-    }
-		
-    //update function
-    public function update(Request $request, $id)
-    {
-		$towns = Town::where('town_id', $id)->firstOrFail();
-		//return
-		return view('towns.edit', compact('towns'));
+	//map view
+    public function mapfabrics()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mapfabrics', compact('towns'));	   
     }
 	
+	//map view
+    public function mappottery()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mappottery', compact('towns'));	   
+    }
+	
+	//map view
+    public function maplacquerware()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.maplacquerware', compact('towns'));	   
+    }
+	
+	//map view
+    public function mappaintings()
+    {            
+		$towns = Town::all();	   
+        //return view
+        return view('towns.mappaintings', compact('towns'));	   
+    }
+	
+	//map view
+    public function mapitems()
+    {            
+		$towns = Town::all();
 
+        foreach($towns as $town)
+        {          
+			$town->items = Item::where('item_id','<',25)->where('location',$town->town_id)->where('status','unowned')->count();			
+        }
+		
+        //return view
+        return view('towns.mapitems', compact('towns'));	   
+    }
 	
 }

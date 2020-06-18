@@ -85,7 +85,9 @@
                 </div>
 
                 <div class="links">
-                    <a href="/home">Home</a>
+                    <a href="/news">News</a>
+					<a href="/forum">Forum</a>
+					<a href="/forum">Manual</a>
                     <a href="/login">Login</a>
                     <a href="/register">Register</a>
                 </div>

@@ -30,7 +30,9 @@ class BattleController extends Controller
 	//show view
     public function show($id)
     {       
-      
+        $user = auth()->user();
+		$user_audio = $user->audio;
+		return view('battles.show', compact('user_audio'));	     
     }
 	
 	//edit form

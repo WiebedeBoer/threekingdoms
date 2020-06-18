@@ -27,7 +27,8 @@ class ChronicleController extends Controller
 		//user id
 		$user = auth()->user();
 		$user_id = $user->id;		
-		
+		$chronicles = Chronicle::all();	
+		$chroniclecount = Chronicle::count();	
 		//return view	
 		return view('chronicles.index', compact('chroniclecount','chronicles'));  
 	}

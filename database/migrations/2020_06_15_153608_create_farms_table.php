@@ -16,6 +16,7 @@ class CreateFarmsTable extends Migration
         Schema::create('farms', function (Blueprint $table) {
             $table->bigIncrements('farm_id');
 			$table->string('farm_name');
+			//farm type
 			$table->string('category');
 			//upgrades
 			$table->string('garden');
@@ -23,9 +24,13 @@ class CreateFarmsTable extends Migration
 			$table->string('hall');
 			$table->string('kitchen');
 			//stats
-			$table->integer('food');
-			$table->integer('animals');
-			$table->integer('goods');
+			$table->integer('food')->default(0);
+			$table->integer('animals')->default(0);
+			$table->integer('plum')->default(0);
+			$table->integer('peach')->default(0);
+			$table->integer('tea')->default(0);
+			$table->integer('silk')->default(0);
+			$table->integer('goods')->default(0);
 			//location
 			$table->integer('xcooord');
 			$table->integer('ycooord');

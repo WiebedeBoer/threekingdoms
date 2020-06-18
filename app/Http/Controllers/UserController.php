@@ -36,7 +36,7 @@ class UserController extends Controller
     }
 	
 	//admin destroy
-    public function index()
+    public function destroy()
     {       
         $userdata = User::all();
 		$user = auth()->user();

@@ -549,7 +549,8 @@ class TownSeeder extends Seeder
 			'peach' => 'yes',
 			'jade' => 'yes',
 			'censer' => 'yes',
-			'fabrics' => 'yes'
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//2
 		DB::table('towns')->insert([            
@@ -561,7 +562,9 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
 			'censer' => 'yes',
+			'fabrics' => 'yes',
 			'paintings' => 'yes'
         ]);
 		//3
@@ -574,7 +577,9 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
-			'jade' => 'yes'
+			'jade' => 'yes',
+			'fabrics' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//4
 		DB::table('towns')->insert([            
@@ -583,6 +588,8 @@ class TownSeeder extends Seeder
             'category_size' => 'enormous', 
             'xcoord' => '3012',
 			'ycoord' => '1721',
+			'tea' => 'yes',
+			'silk' => 'yes',
 			'fabrics' => 'yes',
 			'pottery' => 'yes',
 			'paintings' => 'yes'			
@@ -598,6 +605,7 @@ class TownSeeder extends Seeder
 			'plum' => 'yes',
 			'peach' => 'yes',
 			'jade' => 'yes',
+			'censer' => 'yes',
 			'lacquerware' => 'yes',
 			'paintings' => 'yes'				
         ]);
@@ -611,7 +619,6 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
-			'jade' => 'yes',
 			'censer' => 'yes',
 			'lacquerware' => 'yes'			
         ]);
@@ -651,6 +658,8 @@ class TownSeeder extends Seeder
             'category_size' => 'large', 
             'xcoord' => '3249',
 			'ycoord' => '1817',
+			'tea' => 'yes',
+			'silk' => 'yes',
 			'fabrics' => 'yes',
 			'pottery' => 'yes',
 			'paintings' => 'yes'			
@@ -662,6 +671,8 @@ class TownSeeder extends Seeder
             'category_size' => 'remarkable', 
             'xcoord' => '2669',
 			'ycoord' => '2072',
+			'tea' => 'yes',
+			'silk' => 'yes',
 			'fabrics' => 'yes',
 			'lacquerware' => 'yes'			
         ]);
@@ -672,6 +683,8 @@ class TownSeeder extends Seeder
             'category_size' => 'remarkable', 
             'xcoord' => '2399',
 			'ycoord' => '2074',
+			'tea' => 'yes',
+			'silk' => 'yes',
 			'fabrics' => 'yes',
 			'lacquerware' => 'yes'	
         ]);
@@ -682,7 +695,6 @@ class TownSeeder extends Seeder
             'category_size' => 'remarkable', 
             'xcoord' => '1211',
 			'ycoord' => '2706',
-			'fabrics' => 'yes',
 			'category_rebel' => 'Dianyue'
         ]);
 		//13
@@ -692,6 +704,8 @@ class TownSeeder extends Seeder
             'category_size' => 'huge', 
             'xcoord' => '1328',
 			'ycoord' => '2020',
+			'tea' => 'yes',
+			'silk' => 'yes',
 			'fabrics' => 'yes',
 			'lacquerware' => 'yes',
 			'category_rebel' => 'Baima'			
@@ -706,6 +720,7 @@ class TownSeeder extends Seeder
 			'peach' => 'yes',
             'xcoord' => '3049',
 			'ycoord' => '1464',
+			'censer' => 'yes',
 			'pottery' => 'yes'
         ]);
 		//15
@@ -718,7 +733,9 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
-			'lacquerware' => 'yes'
+			'jade' => 'yes',
+			'lacquerware' => 'yes',
+			'category_rebel' => 'Qiang'
         ]);
 		//16, wu wei
 		DB::table('towns')->insert([            
@@ -731,7 +748,6 @@ class TownSeeder extends Seeder
 			'plum' => 'yes',
 			'peach' => 'yes',
 			'jade' => 'yes',
-			'fabrics' => 'yes',
 			'category_rebel' => 'Yuezhi'			
         ]);
 		//17, heze
@@ -744,6 +760,7 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'censer' => 'yes',
 			'fabrics' => 'yes',
 			'pottery' => 'yes'				
         ]);
@@ -754,8 +771,6 @@ class TownSeeder extends Seeder
             'category_size' => 'huge', 
             'xcoord' => '2532',
 			'ycoord' => '3123',
-			'jade' => 'yes',
-			'fabrics' => 'yes',
 			'category_rebel' => 'Nanyue'			
         ]);
 		//19, hanzhong
@@ -767,6 +782,7 @@ class TownSeeder extends Seeder
 			'ycoord' => '1650',
 			'jade' => 'yes',
 			'fabrics' => 'yes',
+			'lacquerware' => 'yes',
 			'category_rebel' => 'Five Pecks of Rice'				
         ]);
 		//20
@@ -780,7 +796,8 @@ class TownSeeder extends Seeder
 			'plum' => 'yes',
 			'peach' => 'yes',
 			'jade' => 'yes',
-			'fabrics' => 'yes'				
+			'fabrics' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//21
 		DB::table('towns')->insert([            
@@ -793,7 +810,8 @@ class TownSeeder extends Seeder
 			'plum' => 'yes',
 			'peach' => 'yes',
 			'jade' => 'yes',
-			'fabrics' => 'yes'				
+			'fabrics' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//korean
 		//22
@@ -886,6 +904,7 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
 			'category_rebel' => 'Yuezhi'			
         ]);	
 		//30
@@ -898,6 +917,7 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
 			'category_rebel' => 'Yuezhi'			
         ]);	
 		//31
@@ -910,6 +930,7 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
 			'category_rebel' => 'Qiang'			
         ]);
 		//far south
@@ -974,7 +995,9 @@ class TownSeeder extends Seeder
             'population' => '90000',  
             'category_size' => 'remarkable', 
             'xcoord' => '2497',
-			'ycoord' => '2395'			
+			'ycoord' => '2395',
+			'tea' => 'yes',
+			'lacquerware' => 'yes'
         ]);		
 		//39
 		DB::table('towns')->insert([            
@@ -982,7 +1005,9 @@ class TownSeeder extends Seeder
             'population' => '60000',  
             'category_size' => 'medium', 
             'xcoord' => '2325',
-			'ycoord' => '2271'			
+			'ycoord' => '2271',
+			'tea' => 'yes',
+			'lacquerware' => 'yes'
         ]);	
 		//40
 		DB::table('towns')->insert([            
@@ -990,7 +1015,9 @@ class TownSeeder extends Seeder
             'population' => '60000',  
             'category_size' => 'medium', 
             'xcoord' => '2318',
-			'ycoord' => '2683'			
+			'ycoord' => '2683',
+			'tea' => 'yes',
+			'category_rebel' => 'Nanyue'
         ]);	
 		//41
 		DB::table('towns')->insert([            
@@ -1007,7 +1034,9 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2140',
-			'ycoord' => '2821'			
+			'ycoord' => '2821',
+			'tea' => 'yes',
+			'category_rebel' => 'Nanyue'
         ]);
 		//43
 		DB::table('towns')->insert([            
@@ -1015,7 +1044,9 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2477',
-			'ycoord' => '2656'			
+			'ycoord' => '2656',
+			'tea' => 'yes',
+			'category_rebel' => 'Nanyue'
         ]);
 		//44
 		DB::table('towns')->insert([            
@@ -1023,7 +1054,9 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2298',
-			'ycoord' => '2535'			
+			'ycoord' => '2535',
+			'tea' => 'yes',
+			'category_rebel' => 'Nanyue'
         ]);
 		//45
 		DB::table('towns')->insert([            
@@ -1031,7 +1064,9 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2488',
-			'ycoord' => '2448'			
+			'ycoord' => '2448',
+			'tea' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//46
 		DB::table('towns')->insert([            
@@ -1039,7 +1074,9 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2515',
-			'ycoord' => '2218'			
+			'ycoord' => '2218',
+			'tea' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//47
 		DB::table('towns')->insert([            
@@ -1047,7 +1084,8 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2848',
-			'ycoord' => '2266'			
+			'ycoord' => '2266',
+			'tea' => 'yes'				
         ]);
 		//48
 		DB::table('towns')->insert([            
@@ -1055,7 +1093,8 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2832',
-			'ycoord' => '2472'			
+			'ycoord' => '2472',
+			'tea' => 'yes'				
         ]);
 		//49
 		DB::table('towns')->insert([            
@@ -1063,7 +1102,8 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2936',
-			'ycoord' => '2424'			
+			'ycoord' => '2424',
+			'tea' => 'yes'				
         ]);
 		//50
 		DB::table('towns')->insert([            
@@ -1072,6 +1112,7 @@ class TownSeeder extends Seeder
             'category_size' => 'small', 
             'xcoord' => '3226',
 			'ycoord' => '2432',
+			'tea' => 'yes',
 			'category_rebel' => 'Minyue'			
         ]);
 		//51
@@ -1081,6 +1122,7 @@ class TownSeeder extends Seeder
             'category_size' => 'small', 
             'xcoord' => '3176',
 			'ycoord' => '2626',
+			'tea' => 'yes',
 			'category_rebel' => 'Minyue'			
         ]);
 		//52
@@ -1089,7 +1131,8 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2878',
-			'ycoord' => '2322'			
+			'ycoord' => '2322',
+			'tea' => 'yes'				
         ]);
 		//53
 		DB::table('towns')->insert([            
@@ -1097,7 +1140,8 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2890',
-			'ycoord' => '2166'			
+			'ycoord' => '2166',
+			'tea' => 'yes'				
         ]);	
 		//54
 		DB::table('towns')->insert([            
@@ -1105,7 +1149,11 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2236',
-			'ycoord' => '1997'			
+			'ycoord' => '1997',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes'
         ]);	
 		//55
 		DB::table('towns')->insert([            
@@ -1113,7 +1161,12 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '1894',
-			'ycoord' => '2001'			
+			'ycoord' => '2001',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes',
+			'category_rebel' => 'Yelang'
         ]);					
 		//far southwest
 		//56
@@ -1123,6 +1176,10 @@ class TownSeeder extends Seeder
             'category_size' => 'medium', 
             'xcoord' => '1284',
 			'ycoord' => '2189',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes',
 			'category_rebel' => 'Yelang'			
         ]);	
 		//57, chongqing
@@ -1132,7 +1189,11 @@ class TownSeeder extends Seeder
             'category_size' => 'medium', 
             'xcoord' => '1645',
 			'ycoord' => '2192',
-			'category_rebel' => 'Yelang'			
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes',
+			'category_rebel' => 'Yelang',
         ]);	
 		//58
 		DB::table('towns')->insert([            
@@ -1141,6 +1202,10 @@ class TownSeeder extends Seeder
             'category_size' => 'medium', 
             'xcoord' => '1420',
 			'ycoord' => '2222',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes',
 			'category_rebel' => 'Yelang'			
         ]);	
 		//59
@@ -1159,6 +1224,9 @@ class TownSeeder extends Seeder
             'category_size' => 'small', 
             'xcoord' => '1557',
 			'ycoord' => '1750',
+			'tea' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes',
 			'category_rebel' => 'Baima'			
         ]);
 		//61
@@ -1168,6 +1236,10 @@ class TownSeeder extends Seeder
             'category_size' => 'small', 
             'xcoord' => '1356',
 			'ycoord' => '1976',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes',
 			'category_rebel' => 'Baima'				
         ]);
 		//62
@@ -1204,7 +1276,10 @@ class TownSeeder extends Seeder
             'population' => '60000',  
             'category_size' => 'medium', 
             'xcoord' => '3529',
-			'ycoord' => '2119'			
+			'ycoord' => '2119',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes'
         ]);
 		//66, suzhou
 		DB::table('towns')->insert([            
@@ -1212,7 +1287,10 @@ class TownSeeder extends Seeder
             'population' => '60000',  
             'category_size' => 'medium', 
             'xcoord' => '3490',
-			'ycoord' => '1924'			
+			'ycoord' => '1924',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes'
         ]);
 		//67
 		DB::table('towns')->insert([            
@@ -1220,7 +1298,12 @@ class TownSeeder extends Seeder
             'population' => '60000',  
             'category_size' => 'medium', 
             'xcoord' => '3350',
-			'ycoord' => '1755'			
+			'ycoord' => '1755',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes',
+			'pottery' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//68
 		DB::table('towns')->insert([            
@@ -1228,7 +1311,12 @@ class TownSeeder extends Seeder
             'population' => '60000',  
             'category_size' => 'medium', 
             'xcoord' => '3058',
-			'ycoord' => '1843'			
+			'ycoord' => '1843',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes',
+			'pottery' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//69
 		DB::table('towns')->insert([            
@@ -1237,6 +1325,7 @@ class TownSeeder extends Seeder
             'category_size' => 'small', 
             'xcoord' => '3564',
 			'ycoord' => '2298',
+			'tea' => 'yes',	
 			'category_rebel' => 'Minyue'			
         ]);
 		//70
@@ -1246,6 +1335,7 @@ class TownSeeder extends Seeder
             'category_size' => 'small', 
             'xcoord' => '3502',
 			'ycoord' => '2426',
+			'tea' => 'yes',
 			'category_rebel' => 'Minyue'			
         ]);
 		//71
@@ -1254,7 +1344,10 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '3446',
-			'ycoord' => '2233'			
+			'ycoord' => '2233',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes'
         ]);
 		//72
 		DB::table('towns')->insert([            
@@ -1262,7 +1355,10 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '3425',
-			'ycoord' => '2102'			
+			'ycoord' => '2102',
+			'tea' => 'yes',
+			'silk' => 'yes',
+			'fabrics' => 'yes'
         ]);
 		//73
 		DB::table('towns')->insert([            
@@ -1270,7 +1366,11 @@ class TownSeeder extends Seeder
             'population' => '60000',  
             'category_size' => 'medium', 
             'xcoord' => '2926',
-			'ycoord' => '1717'			
+			'ycoord' => '1717',
+			'tea' => 'yes',
+			'fabrics' => 'yes',
+			'pottery' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//74
 		DB::table('towns')->insert([            
@@ -1278,7 +1378,11 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2870',
-			'ycoord' => '1676'			
+			'ycoord' => '1676',
+			'tea' => 'yes',
+			'fabrics' => 'yes',
+			'pottery' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//75
 		DB::table('towns')->insert([            
@@ -1286,7 +1390,10 @@ class TownSeeder extends Seeder
             'population' => '30000',  
             'category_size' => 'small', 
             'xcoord' => '2766',
-			'ycoord' => '1797'			
+			'ycoord' => '1797',
+			'tea' => 'yes',
+			'fabrics' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//76
 		DB::table('towns')->insert([            
@@ -1297,7 +1404,10 @@ class TownSeeder extends Seeder
 			'ycoord' => '1584',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes',			
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'fabrics' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//west
 		//77, lanzhou
@@ -1310,6 +1420,7 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
 			'category_rebel' => 'Qiang'			
         ]);
 		//78
@@ -1322,6 +1433,7 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
 			'category_rebel' => 'Qiang'			
         ]);
 		//79
@@ -1345,7 +1457,10 @@ class TownSeeder extends Seeder
 			'ycoord' => '1451',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//81
 		DB::table('towns')->insert([            
@@ -1357,6 +1472,7 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
 			'category_rebel' => 'Qiang'
         ]);
 		//centre
@@ -1369,7 +1485,11 @@ class TownSeeder extends Seeder
 			'ycoord' => '1424',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'censer' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//83
 		DB::table('towns')->insert([            
@@ -1380,7 +1500,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1268',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//84
 		DB::table('towns')->insert([            
@@ -1391,7 +1513,10 @@ class TownSeeder extends Seeder
 			'ycoord' => '1422',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'censer' => 'yes',
+			'fabrics' => 'yes'
         ]);
 		//yellow river
 		//85
@@ -1403,7 +1528,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1378',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'fabrics' => 'yes'
         ]);
 		//86
 		DB::table('towns')->insert([            
@@ -1414,7 +1541,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1289',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//87
 		DB::table('towns')->insert([            
@@ -1425,7 +1554,10 @@ class TownSeeder extends Seeder
 			'ycoord' => '1403',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'fabrics' => 'yes',
+			'pottery' => 'yes'
         ]);
 		//88
 		DB::table('towns')->insert([            
@@ -1436,7 +1568,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1199',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'paintings' => 'yes'
         ]);
 		//89
 		DB::table('towns')->insert([            
@@ -1447,7 +1581,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1109',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//90
 		DB::table('towns')->insert([            
@@ -1458,7 +1594,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1228',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'pottery' => 'yes'
         ]);
 		//91
 		DB::table('towns')->insert([            
@@ -1469,7 +1607,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1219',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'pottery' => 'yes'
         ]);
 		//92
 		DB::table('towns')->insert([            
@@ -1480,7 +1620,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1089',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//93
 		DB::table('towns')->insert([            
@@ -1491,7 +1633,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1075',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//94
 		DB::table('towns')->insert([            
@@ -1502,7 +1646,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '996',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//95
 		DB::table('towns')->insert([            
@@ -1513,7 +1659,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1010',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//96
 		DB::table('towns')->insert([            
@@ -1524,7 +1672,11 @@ class TownSeeder extends Seeder
 			'ycoord' => '901',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'lacquerware' => 'yes',
+			'paintings' => 'yes',
+			'category_rebel' => 'Black Mountain Bandits'
         ]);
 		//97
 		DB::table('towns')->insert([            
@@ -1535,7 +1687,11 @@ class TownSeeder extends Seeder
 			'ycoord' => '858',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'lacquerware' => 'yes',
+			'paintings' => 'yes',
+			'category_rebel' => 'Black Mountain Bandits'
         ]);
 		//98
 		DB::table('towns')->insert([            
@@ -1546,7 +1702,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '773',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//99
 		DB::table('towns')->insert([            
@@ -1557,7 +1715,8 @@ class TownSeeder extends Seeder
 			'ycoord' => '617',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'category_rebel' => 'Wuhuan'
         ]);	
 		//100
 		DB::table('towns')->insert([            
@@ -1601,7 +1760,8 @@ class TownSeeder extends Seeder
 			'ycoord' => '803',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//104
 		DB::table('towns')->insert([            
@@ -1612,7 +1772,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '996',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);		
 		//105
 		DB::table('towns')->insert([            
@@ -1623,7 +1785,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '947',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);			
 		//106
 		DB::table('towns')->insert([            
@@ -1634,7 +1798,8 @@ class TownSeeder extends Seeder
 			'ycoord' => '846',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'lacquerware' => 'yes'
         ]);			
 		//near north east
 		//107
@@ -1646,7 +1811,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1071',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);	
 		//108
 		DB::table('towns')->insert([            
@@ -1657,7 +1824,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1281',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'pottery' => 'yes'
         ]);
 		//109
 		DB::table('towns')->insert([            
@@ -1668,7 +1837,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1455',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'pottery' => 'yes'
         ]);
 		//110
 		DB::table('towns')->insert([            
@@ -1679,7 +1850,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1421',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'pottery' => 'yes'
         ]);
 		//111
 		DB::table('towns')->insert([            
@@ -1690,7 +1863,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1253',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'pottery' => 'yes'
         ]);
 		//112
 		DB::table('towns')->insert([            
@@ -1701,7 +1876,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1060',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//113
 		DB::table('towns')->insert([            
@@ -1712,7 +1889,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1048',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//114
 		DB::table('towns')->insert([            
@@ -1723,7 +1902,8 @@ class TownSeeder extends Seeder
 			'ycoord' => '991',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes'
         ]);
 		//115
 		DB::table('towns')->insert([            
@@ -1734,7 +1914,8 @@ class TownSeeder extends Seeder
 			'ycoord' => '889',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes'
         ]);	
 		//116
 		DB::table('towns')->insert([            
@@ -1745,7 +1926,8 @@ class TownSeeder extends Seeder
 			'ycoord' => '957',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'censer' => 'yes'
         ]);	
 		//centre north
 		//117
@@ -1757,7 +1939,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1155',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'paintings' => 'yes'
         ]);	
 		//118
 		DB::table('towns')->insert([            
@@ -1769,6 +1953,8 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
+			'lacquerware' => 'yes',
 			'category_rebel' => 'Xiongnu'
         ]);	
 		//119
@@ -1804,7 +1990,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1175',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'lacquerware' => 'yes'
         ]);
 		//122
 		DB::table('towns')->insert([            
@@ -1815,7 +2003,9 @@ class TownSeeder extends Seeder
 			'ycoord' => '1261',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'paintings' => 'yes'
         ]);	
 		//123
 		DB::table('towns')->insert([            
@@ -1827,6 +2017,9 @@ class TownSeeder extends Seeder
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
 			'peach' => 'yes',
+			'jade' => 'yes',
+			'lacquerware' => 'yes',
+			'paintings' => 'yes',
 			'category_rebel' => 'Black Mountain Bandits'	
         ]);
 		//124
@@ -1838,7 +2031,11 @@ class TownSeeder extends Seeder
 			'ycoord' => '1407',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'censer' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes'
         ]);	
 		//125
 		DB::table('towns')->insert([            
@@ -1849,7 +2046,11 @@ class TownSeeder extends Seeder
 			'ycoord' => '1457',
 			'staple_food' => 'wheat',
 			'plum' => 'yes',
-			'peach' => 'yes'
+			'peach' => 'yes',
+			'jade' => 'yes',
+			'censer' => 'yes',
+			'fabrics' => 'yes',
+			'lacquerware' => 'yes'
         ]);			
     }
 }

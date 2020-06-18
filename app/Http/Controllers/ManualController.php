@@ -19,7 +19,7 @@ class ManualController extends Controller
 	
     public function economy()
     {       
-        return view('manual.economy');        
+        return view('manual.economics');        
     }
 	
     public function gameworld()
@@ -34,7 +34,7 @@ class ManualController extends Controller
 	
     public function units()
     {       
-        return view('manual.units');        
+        return view('manual.military');        
     }	
 	
     public function warfare()

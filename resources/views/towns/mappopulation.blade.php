@@ -3,16 +3,7 @@
 Game
 @endsection
 @section('content')
-<div>
-<a href="/towns">default</a>
-<a href="/mappopulation">population</a>
-<a href="/mapstaples">staples</a>
-<a href="/mapplum">plum</a>
-<a href="/mappeach">peach</a>
-<a href="/maptea">tea</a>
-<a href="/mapsilk">silk</a>
-<a href="/maprebel">rebels</a>
-</div>
+@include('towns.mapmenu')
 
 
 	<!--<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">-->
@@ -24,35 +15,35 @@ Game
 	@foreach($towns as $town)	
 		@if($town->category_size =="legendary")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (legendary)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,255,255)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (legendary)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="18" fill="rgb(0,255,255)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->category_size =="enormous")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (enormous)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,128)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (enormous)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="17" fill="rgb(255,0,255)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->category_size =="huge")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (huge)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(255,0,255)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (huge)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="16" fill="rgb(128,92,128)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->category_size =="large")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (large)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(128,0,128)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (large)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="15" fill="rgb(255,255,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->category_size =="remarkable")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (remarkable)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(255,128,0)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (remarkable)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="14" fill="rgb(255,128,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->category_size =="medium")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (medium)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(255,0,0)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (medium)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="13" fill="rgb(255,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@elseif($town->category_size =="small")
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (small)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(64,0,0)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}} (small)</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(92,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@else
 			<g z-index="2">
-			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="9" fill="rgb(0,0,0)" stroke="black" stroke-width="3" /></a>
+			<a xlink:href="/towns/{{$town->town_id}}"><title>{{$town->town_name}}</title><circle cx="{{$town->xcoord}}" cy="{{$town->ycoord}}" r="12" fill="rgb(0,0,0)" stroke="black" stroke-width="4" /></a>
 			</g>
 		@endif
 	@endforeach

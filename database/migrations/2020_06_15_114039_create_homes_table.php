@@ -21,6 +21,13 @@ class CreateHomesTable extends Migration
 			$table->string('wall');
 			$table->string('hall');
 			$table->string('kitchen');
+			//goods stats
+			$table->integer('jade')->default(0);
+			$table->integer('censer')->default(0);
+			$table->integer('fabrics')->default(0);
+			$table->integer('pottery')->default(0);
+			$table->integer('lacquerware')->default(0);
+			$table->integer('paintings')->default(0);
 			//fk
 			$table->unsignedBigInteger('owner')->nullable();
 			$table->unsignedBigInteger('location')->nullable();

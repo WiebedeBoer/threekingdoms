@@ -17,9 +17,11 @@ class CreateFactionsTable extends Migration
             $table->bigIncrements('faction_id');
 			$table->string('faction_name');
 			//emperor
-			$table->integer('emperor');
+			$table->integer('emperor')->default(1);
 			//culture
-			$table->string('culture');
+			$table->string('culture')->default('Chinese');
+			//treasury
+			$table->integer('treasury')->default(0);
 			//fk
 			$table->unsignedBigInteger('ruler')->nullable();
 			//timestamps
