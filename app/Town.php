@@ -88,4 +88,10 @@ class Town extends Model
         return $this->hasMany('App\Dungeon','dungeon_id');
     }	
 	
+	//buildings
+    public function buildings()
+    {
+        return $this->hasMany('App\Building','building_id');
+    }
+	
 }

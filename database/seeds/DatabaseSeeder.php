@@ -26,6 +26,8 @@ class DatabaseSeeder extends Seeder
         $this->call('ItemTypeSeeder');
         //items seeds
         $this->call('ItemSeeder');
+        //building types seeds
+        $this->call('BuildingTypeSeeder');
     }
 	
 }
@@ -156,6 +158,40 @@ class ForeignKeySeeder extends Seeder
             $table->foreign('owner')->references('person_id')->on('people');
             $table->foreign('location')->references('town_id')->on('towns');
         });	
+        //buildings fk
+		Schema::table('buildings', function (Blueprint $table) {
+			$table->foreign('type')->references('building_type_id')->on('building_types');
+            $table->foreign('town')->references('town_id')->on('towns');
+        });	
+	}
+}
+
+class BuildingTypeSeeder extends Seeder
+{	
+	//admins game moderator
+    public function run()
+    {
+		//1
+		DB::table('building_types')->insert([
+			'type_name' => 'barracks',
+			'building_category' => 'military'
+		]);
+		//2
+		DB::table('building_types')->insert([
+			'type_name' => 'granary',
+			'building_category' => 'industrial'
+		]);
+		//3
+		DB::table('building_types')->insert([
+			'type_name' => 'hospital',
+			'building_category' => 'health'
+		]);
+		//4
+		DB::table('building_types')->insert([
+			'type_name' => 'stables',
+			'building_category' => 'military'
+		]);
+
 	}
 }
 
